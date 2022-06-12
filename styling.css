@@ -4,9 +4,31 @@
     
 text-decoration: none;
 }
+.Evans{
+    margin: 0 auto;
+    width: 1000px;
+    background-color:red;
+}
 
-p{
-    background-color: blue;
-    padding: 0px;
-    margin: 20px;
+ul li{
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+
+
+}
+ul li a{
+   font-size: 24px; 
+   font-family: Arial, Helvetica, sans-serif;
+   color: 1e1e1e;
+   padding: 0 20px;
+   display: block;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+ul li a:hover{
+    color:red;
 }
